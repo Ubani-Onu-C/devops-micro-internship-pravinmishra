@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Screenshot 1 - Blog published](screenshots/assignment08-screenshot1-blog-published.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+`https://github.com/Ubani-Onu-C/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/reflection-week-2.md`
 
 ---
 
@@ -92,23 +92,36 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![Screenshot 2 - LinkedIn post published](screenshots/assignment08-screenshot2-linkedin-post.png)
 
 ---
 
 ### Submission Field
 
 LinkedIn Post Content (copy-paste here):
-
-```
-Paste your LinkedIn post content here
-```
-
----
+Week 2 of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI is complete—and it fundamentally changed how I think about AI-assisted engineering.
+This week wasn't about writing better prompts.
+It was about building systems that make AI more reliable, secure, and useful in real engineering workflows.
+Over the course of the week, I learned how to:
+✅ Create CLAUDE.md files that provide durable project context.
+✅ Build custom Claude Code Skills to automate repetitive workflows.
+✅ Delegate tasks to specialized subagents using the principle of least privilege.
+✅ Connect Claude to GitHub through MCP for deeper project awareness.
+✅ Write safety hooks that prevent destructive commands from executing.
+✅ Configure persistent memory so project decisions are retained across sessions.
+The highlight for me came during testing.
+I watched a terraform destroy command get intercepted and blocked by a pre-tool hook that I had written myself.
+Even more impressive, Claude didn't attempt to work around the guardrail. Instead, it explained exactly why the command was blocked and why it wouldn't bypass the safety mechanism without my explicit approval.
+That was the moment Agentic AI stopped feeling like a fascinating concept and started feeling like practical engineering.
+As someone transitioning from 15+ years in telecommunications engineering into DevOps and Cloud Engineering, experiences like this continue to reinforce that the core principles haven't changed—automation, verification, least privilege, and building systems that are safe by design remain just as important as ever.
+I've shared my full Week 2 reflection below, where I discuss the technical lessons, personal insights, and the engineering habits I'm taking into Week 3.
+A huge thank you to Pravin Mishra for creating this incredible learning platform and to my amazing mentor Anjana Muthunayake for their guidance, encouragement, and continuous support throughout this journey.
+P.S. This post is part of my journey through the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI, led by Pravin Mishra. If you're interested in learning modern DevOps with Agentic AI, I highly recommend checking out the community. ( https://lnkd.in/eRacCQDM ).
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #CloudEngineering #InfrastructureAsCode #PlatformEngineering #LearningInPublic #AIEngineering
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/posts/onuchukwu-ubani-10004741_dmibypravinmishra-agenticai-claudecode-activity-7481601432354287616-OgxQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0`
 
 ---
 
@@ -124,15 +137,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [x] Blog written with required structure
+* [x] Blog includes at least 2–3 Week 2 topics
+* [x] Blog is publicly accessible
+* [x] LinkedIn post created
+* [ ] Required P.S. line included (posted with a personalized variant instead of the exact required line)
+* [x] LinkedIn post content copied in submission field
+* [x] Blog link added
+* [x] LinkedIn post link added
+* [x] Screenshots added to GitHub repo
 
 ---
 
@@ -153,4 +166,3 @@ It helps learners build strong DevOps foundations through hands-on experience.
 * ▶️ YouTube Playlist: [https://www.youtube.com/playlist?list=PLFeSNDtI4Cho](https://www.youtube.com/playlist?list=PLFeSNDtI4Cho)
 * 🔗 Pravin Mishra (LinkedIn): [https://www.linkedin.com/in/pravin-mishra-aws-trainer/](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
 * 🏢 CloudAdvisory (LinkedIn): [https://www.linkedin.com/company/thecloudadvisory/](https://www.linkedin.com/company/thecloudadvisory/)
-
