@@ -26,7 +26,7 @@ I learned that Agentic AI in a DevOps context is not about replacing judgment �
 
 My highlight was watching my own `pre-tool-guard.sh` hook actually catch and block a live `terraform destroy -auto-approve` command mid-session, and watching Claude explain — clearly and without me prompting — exactly why it wouldn't try to work around its own safety guard without my explicit permission. That's the moment agentic safety stopped being a concept and became something I'd actually built and watched work.
 
-P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/Ubani-Onu-C.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3
 
 *This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community (https://discord.pravinmishra.com/).*
 
