@@ -34,9 +34,9 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Protocols are agreed-upon rules that allow devices to communicate 
-over a network. Just like humans need a common language to 
-understand each other, computers need protocols like HTTP, TCP/IP 
+Protocols are agreed-upon rules that allow devices to communicate
+over a network. Just like humans need a common language to
+understand each other, computers need protocols like HTTP, TCP/IP
 to exchange data reliably and consistently.
 
 
@@ -61,17 +61,17 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-When a user types epicreads.com into their browser, the request 
-doesn't travel as one complete message. Instead, TCP/IP breaks it 
-into small units called packets. Each packet carries the destination 
-IP address of the server in Finland — a unique numerical label like 
-52.172.142.222 — that routers worldwide use to forward it through 
-the internet via packet switching. Different packets may travel 
-different routes but all arrive at the server and are reassembled 
-in the correct order by TCP. The browser and server then communicate 
-using HTTP or HTTPS — the protocol that defines how web pages are 
-requested and delivered. HTTPS adds encryption, keeping user data 
-like login details and payment information secure during transit.d your answer here...
+When a user types epicreads.com into their browser, the request
+doesn't travel as one complete message. Instead, TCP/IP breaks it
+into small units called packets. Each packet carries the destination
+IP address of the server in Finland — a unique numerical label like
+52.172.142.222 — that routers worldwide use to forward it through
+the internet via packet switching. Different packets may travel
+different routes but all arrive at the server and are reassembled
+in the correct order by TCP. The browser and server then communicate
+using HTTP or HTTPS — the protocol that defines how web pages are
+requested and delivered. HTTPS adds encryption, keeping user data
+like login details and payment information secure during transit.
 
 ---
 
@@ -154,15 +154,15 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
+DNS (Domain Name System) is the internet's phone book. It translates
+human-friendly domain names like epicreads.com into machine-readable
+IP addresses like 52.172.142.222, allowing browsers to locate the
+correct server. To connect epicreads.com to that IP address, an
+A Record should be used. An A Record maps a domain name directly
+to an IPv4 address, making it the correct DNS record type for this
+scenario.
 
-
-DNS (Domain Name System) is the internet's phone book. It translates 
-human-friendly domain names like epicreads.com into machine-readable 
-IP addresses like 52.172.142.222, allowing browsers to locate the 
-correct server. To connect epicreads.com to that IP address, an 
-A Record should be used. An A Record maps a domain name directly 
-to an IPv4 address, making it the correct DNS record type for this 
-scenario.---
+---
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
 
@@ -236,8 +236,8 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
-```https://www.linkedin.com/posts/onuchukwu-ubani-10004741_join-the-dmi-devops-micro-internship-activity-7477393811523014656-a2hh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0
+https://www.linkedin.com/posts/onuchukwu-ubani-10004741_join-the-dmi-devops-micro-internship-activity-7477393811523014656-a2hh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0
+```
 
 ---
 
@@ -245,75 +245,58 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
-
 🚀 Week 00 Complete — DevOps Micro Internship Cohort 3
 
 Here's what I covered this week:
 
 💬 ChatGPT as a Learning Tool
-Used AI to understand networking protocols with real-life examples — 
+Used AI to understand networking protocols with real-life examples —
 a powerful way to accelerate learning.
 
 🌐 Internet & Networking
-Learned how packet switching, IP addresses, TCP/IP and HTTP/HTTPS 
+Learned how packet switching, IP addresses, TCP/IP and HTTP/HTTPS
 work together to deliver web pages globally.
 
 🏗️ Application Architecture
-Explored the difference between Two-Tier (Frontend + Database) and 
-Three-Tier (Frontend + Backend + Database) architectures and the 
+Explored the difference between Two-Tier (Frontend + Database) and
+Three-Tier (Frontend + Backend + Database) architectures and the
 technologies used in each layer.
 
 🌍 DNS
-Understood how DNS translates domain names to IP addresses and why 
+Understood how DNS translates domain names to IP addresses and why
 an A Record is used to connect epicreads.com to its server IP.
 
 💻 VS Code Setup
-Configured my local development environment with VS Code and Git Bash 
+Configured my local development environment with VS Code and Git Bash
 ready for the weeks ahead.
 Special thanks to my Mentor Pravin Mishra,co mentors Anjana Muthunayake Joy Ukpabi for your support and guidance
- 
-P.S. This post is a part of DevOps Micro Internship with Agentic AI 
-Cohort-3 by Pravin Mishra. You can start your DevOps journey by 
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI
+Cohort-3 by Pravin Mishra. You can start your DevOps journey by
 joining this Discord community: https://lnkd.in/eBSr4Bcs
+
+---
 
 # Reflection – Week 0
 
 ### What did you find easy?
 
-Add your answer here...
+Understanding the core internet/networking concepts (packet switching, IP addresses, DNS) came fairly naturally, since I've spent 15+ years working with multi-vendor telecom networks (2G-5G) — the underlying principles of how data moves across a network, gets routed, and reassembled were already familiar territory, just applied to a different layer of the stack than I was used to.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Translating those familiar networking concepts into web-specific terminology and tooling (HTTP/HTTPS request-response cycles, DNS record types like A records, the exact distinction between two-tier and three-tier application architectures) took some deliberate reframing — the concepts weren't new, but connecting them to how a typical web application actually gets built and deployed required conscious effort rather than relying on existing intuition.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I want to be more consistent about documenting my learning process in real time (screenshots, notes) as I go, rather than reconstructing it afterward — and continue building the habit of explaining technical concepts in my own words rather than just recognizing them, since that's a better test of genuine understanding.
 
 ---
 
 ## 📌 About DMI & CloudAdvisory
 
-DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
-
-It helps learners build strong DevOps foundations with hands-on experience.
-
-
-## 📌 Resources
-
-- 🌐 **DMI Official Website:** https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 🎓 **University:** https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 💬 **Discord Community:** https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 📝 **Blog:** https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
-- ▶️ **YouTube Playlist (DMI Cohort 3):** https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 **Pravin Mishra (LinkedIn):** https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 **CloudAdvisory (LinkedIn):** https://www.linkedin.com/company/thecloudadvisory/
-
----
-
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track*
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on
