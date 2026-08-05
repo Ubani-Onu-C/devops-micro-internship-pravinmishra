@@ -250,3 +250,30 @@ Week-4 is **5 assignment files**, each graded pass/fail — your blog post for t
 | — | LinkedIn post | 10 |
 | — | Blog post | 30 |
 | **Total** | | **160** |
+
+---
+
+## Week-5 — DevOps Lifecycle & Agile
+
+| S. No. | Item                   | Comments                                                | Link                                 |
+| ------ | ---------------------- | ------------------------------------------------------- | ------------------------------------ |
+| 1      | Week-5 Class Recording | Watch the recording of the Week-5 live class on YouTube | [YouTube](https://youtube.com/live/SQm6Lu4UEVU?feature=share) |
+
+---
+
+### Week 5: Assignments Submission Guidelines – DevOps Micro Internship (DMI) Cohort-3
+
+* **Deadline - Friday, 7th of August 11:59 PM (your local time)**
+
+Week-5 is **5 assignment files**, each graded pass/fail — your blog post for the week is scored separately below; it is not a 6th assignment file:
+
+| Assignment   | Name                                                  |  Points |
+| ------------ | ----------------------------------------------------- | :-----: |
+| Assignment-1 | Create Your Jira Account and Set Up Your Profile      |    20   |
+| Assignment-2 | Stand Up Scrum in Jira for the DMI Website            |    20   |
+| Assignment-3 | Run a 5-Day Mini-Sprint in Jira and Ship an Increment |    20   |
+| Assignment-4 | Gotto Job: Backlog Refinement and Sprint 1 in Jira    |    20   |
+| Assignment-5 | AI-Assisted Sprint Health Report via Jira MCP         |    20   |
+| —            | LinkedIn post                                         |    10   |
+| —            | Blog post                                             |    30   |
+| **Total**    |                                                       | **140** |
