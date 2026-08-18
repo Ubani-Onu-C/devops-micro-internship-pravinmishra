@@ -20,15 +20,21 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-Add your screenshot here.
+![Project created](screenshots/week05-assignment04-project-created.png)
 
 ---
 
 ### Notes
 
-Write one line for each role: PO (what you prioritized), SM (how you ensured process), Dev Lead (what you built), DevOps Lead (how you shipped).
+**Working Mode:** Solo Mode — I performed every step and played all four Scrum roles myself.
 
-Write your answer here.
+**PO (Product Owner):** I prioritized UI improvements that most directly affect trust and clarity for job seekers — hero tagline clarity and the "Apply Now" CTA were ranked highest since they most directly impact whether a visitor understands the site and takes action.
+
+**SM (Scrum Master):** I ensured process by following the sequence deliberately — refining the backlog before estimating, estimating before sprint planning, and not moving into implementation until Sprint 1 scope and goal were explicitly defined.
+
+**Dev Lead:** I implemented the UI-only change directly in the Gotto Job template's HTML, keeping the change scoped to a single visual concern (no backend logic touched).
+
+**DevOps Lead:** I shipped the change via Git commit and manual deployment to the public EC2 instance on a dedicated port, verifying the live URL after deployment — the same commit → deploy → verify loop used throughout this cohort.
 
 ---
 
@@ -42,7 +48,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-Add your screenshot here.
+![Project created](screenshots/week05-assignment04-project-created.png)
 
 ---
 
@@ -56,7 +62,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-Add your screenshot here.
+![Epic created](screenshots/week05-assignment04-epic-created.png)
 
 ---
 
@@ -70,13 +76,24 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
+![Six stories](screenshots/week05-assignment04-backlog-six-stories.png)
 
 ---
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
+![Story detail](screenshots/week05-assignment04-story-detail.png)
+
+---
+
+### Stories Created (ranked by value, highest first)
+
+1. **Hero tagline clarity (1 pt)** — Show headline "Find your next role, fast." Given the homepage loads, the hero shows exactly that text and wraps cleanly on mobile.
+2. **Job detail Apply Now CTA (1 pt)** — Add a prominent "Apply Now" button linking to mailto: or #. The button is above the fold, keyboard-focusable, and clickable.
+3. **Primary CTA color (1 pt)** — Change the primary menu/button to a high-contrast color (e.g. #198754). Background updated site-wide; hover state distinct; text remains readable.
+4. **Job card typography (2 pts)** — Make job titles larger and bolder. On the Job Listing page, titles are visually dominant.
+5. **Posted on <date> text (1 pt)** — Add a human-readable posted date to cards. Each card shows "Posted on <DD Mon YYYY>".
+6. **Footer trust links (1 pt)** — Add "About" and "Contact" links. Links visible, keyboard-focusable, and route correctly.
 
 ---
 
@@ -88,17 +105,27 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 ### Evidence
 
-#### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
+#### Screenshot 6 — Backlog showing Story Points visible
 
-Add your screenshot here.
+![Planning poker](screenshots/week05-assignment04-planning-poker.png)
 
 ---
 
 ### Notes
 
-For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
+**Hero tagline clarity — 1 pt:** Pure text change, single location, no layout risk. Straightforward.
 
-Write your answer here.
+**Primary CTA color — 1 pt:** A CSS color value change applied via existing variables/classes — low complexity, though it touches multiple locations (any button using the primary class).
+
+**Job card typography — 2 pts:** Requires touching CSS that affects a repeated component (job cards), and needs visual verification across multiple card instances to confirm consistency — slightly more involved than a single-location text/color change.
+
+**Posted on date text — 1 pt:** Static text addition to an existing card template. Simple, low-risk.
+
+**Job detail Apply Now CTA — 1 pt:** Adding one button with a link — small, isolated addition.
+
+**Footer trust links — 1 pt:** Adding two links to an existing footer structure — trivial addition.
+
+In Solo Mode, no live estimation debate occurred, but "Job card typography" was the only Story I initially considered as 1 point before reconsidering — since it touches a repeated component across the whole listing page rather than a single element, I settled on 2 points to reflect the slightly broader verification surface.
 
 ---
 
@@ -112,13 +139,21 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
+![Sprint scope](screenshots/week05-assignment04-sprint-scope.png)
 
 ---
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
+![Story subtasks](screenshots/week05-assignment04-story-subtasks.png)
+
+---
+
+### Sprint 1 Scope
+
+Stories included: Hero tagline clarity (1 pt), Job detail Apply Now CTA (1 pt), Primary CTA color (1 pt) — 3 Story Points total.
+
+Sprint Goal: "Ship 2–3 visible UI improvements to Gotto Job and show them live."
 
 ---
 
@@ -132,7 +167,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
+![Burndown chart](screenshots/week05-assignment04-burndown.png)
 
 ---
 
@@ -146,19 +181,19 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
 
-Add your screenshot here.
+![Story done](screenshots/week05-assignment04-story-done.png)
 
 ---
 
 #### Screenshot 11 — Git commit output
 
-Add your screenshot here.
+![Commit](screenshots/week05-assignment04-commit.png)
 
 ---
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-Add your screenshot here.
+![Live UI](screenshots/week05-assignment04-live-ui.png)
 
 ---
 
@@ -172,7 +207,7 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 #### Screenshot 13 — Jira retro comment visible
 
-Add your screenshot here.
+![Retro](screenshots/week05-assignment04-retro.png)
 
 ---
 
@@ -186,15 +221,19 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
+https://www.linkedin.com/posts/onuchukwu-ubani-10004741_dmi-devops-micro-internship-with-agentic-share-7495227543881515008-MIjW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-Add your screenshot here.
+![LinkedIn post](screenshots/week05-assignment04-linkedin-post.png)
+
+---
+
+## Live URL
+
+http://13.48.123.210:8081
 
 ---
 
@@ -208,18 +247,18 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Team Mode or Solo Mode selected and all four roles documented (Screenshot 1 & Notes)
-- [ ] Task 2: Team-managed Scrum project created with the required name (Screenshot 2)
-- [ ] Task 3: UI improvement Epic created (Screenshot 3)
-- [ ] Task 4: 6–8 Stories added under the Epic and ranked by value (Screenshots 4 & 5)
-- [ ] Task 5: Story Points set (1, 2, or 3) with reasoning recorded (Screenshot 6 & Notes)
-- [ ] Task 6: Sprint 1 created with Sprint Goal, 3–4 Stories, and Sub-tasks (Screenshots 7 & 8)
-- [ ] Task 7: Burndown Chart opened (Screenshot 9)
-- [ ] Task 8: One UI-only increment implemented, committed, deployed, and verified (Screenshots 10–12)
-- [ ] Task 9: Retro comment with one Scrum pillar and one Scrum value (Screenshot 13)
-- [ ] Task 10: Mandatory LinkedIn post published with the live URL, backlog refinement, Sprint planning, one shipped increment, proof, and Screenshot 14
-- [ ] Full Name visible in required screenshots
-- [ ] No sensitive data exposed
+- [x] Task 1: Team Mode or Solo Mode selected and all four roles documented (Screenshot 1 & Notes)
+- [x] Task 2: Team-managed Scrum project created with the required name (Screenshot 2)
+- [x] Task 3: UI improvement Epic created (Screenshot 3)
+- [x] Task 4: 6–8 Stories added under the Epic and ranked by value (Screenshots 4 & 5)
+- [x] Task 5: Story Points set (1, 2, or 3) with reasoning recorded (Screenshot 6 & Notes)
+- [x] Task 6: Sprint 1 created with Sprint Goal, 3–4 Stories, and Sub-tasks (Screenshots 7 & 8)
+- [x] Task 7: Burndown Chart opened (Screenshot 9)
+- [x] Task 8: One UI-only increment implemented, committed, deployed, and verified (Screenshots 10–12)
+- [x] Task 9: Retro comment with one Scrum pillar and one Scrum value (Screenshot 13)
+- [x] Task 10: Mandatory LinkedIn post published with the live URL, backlog refinement, Sprint planning, one shipped increment, proof, and Screenshot 14
+- [x] Full Name visible in required screenshots
+- [x] No sensitive data exposed
 
 ---
 
@@ -233,12 +272,12 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
-- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/
 - 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
 
 ---
