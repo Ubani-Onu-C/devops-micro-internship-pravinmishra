@@ -20,7 +20,7 @@ Download or clone the portfolio website template from GitHub and confirm `index.
 
 #### Screenshot 1 — File Explorer or terminal showing the template folder contents with `index.html` visible
 
-Add your screenshot here.
+![Template files](screenshots/week06-assignment02-template-files.png)
 
 ---
 
@@ -34,7 +34,7 @@ Create a globally unique S3 bucket in your chosen AWS region.
 
 #### Screenshot 2 — S3 bucket created screen showing the bucket name and region
 
-Add your screenshot here.
+![Bucket created](screenshots/week06-assignment02-bucket-created.png)
 
 ---
 
@@ -48,7 +48,7 @@ Upload the contents of the template folder (not the folder itself) so `index.htm
 
 #### Screenshot 3 — S3 bucket Objects view showing `index.html` at the top or root level
 
-Add your screenshot here.
+![Files uploaded](screenshots/week06-assignment02-files-uploaded.png)
 
 ---
 
@@ -62,7 +62,7 @@ Enable S3 Static Website Hosting with `index.html` as the index document and `er
 
 #### Screenshot 4 — Static website hosting enabled screen showing the Website endpoint
 
-Add your screenshot here.
+![Hosting enabled](screenshots/week06-assignment02-hosting-enabled.png)
 
 ---
 
@@ -76,7 +76,7 @@ Adjust Block Public Access settings and save a bucket policy that grants public 
 
 #### Screenshot 5 — Bucket policy page showing the policy saved successfully, with the bucket name visible
 
-Add your screenshot here.
+![Bucket policy](screenshots/week06-assignment02-bucket-policy.png)
 
 ---
 
@@ -90,7 +90,7 @@ Load the site through the S3 website endpoint and confirm the homepage, images, 
 
 #### Screenshot 6 — Browser showing the live website with the S3 website endpoint visible in the address bar
 
-Add your screenshot here.
+![Live site](screenshots/week06-assignment02-live-site.png)
 
 ---
 
@@ -104,7 +104,13 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 #### Screenshot 7 (optional) — Before and after views, or a browser view showing the updated text
 
-Add your screenshot here.
+![Updated tagline](screenshots/week06-assignment02-updated-tagline.png)
+
+---
+
+### Note
+
+The hero tagline was updated from "Start your DevOps Journey here" to "Start Your Cloud & DevOps Journey Today", re-uploaded to S3 overwriting the existing `index.html`. The browser initially showed a cached version of the old text — verified via direct `curl` request to the S3 website endpoint that the live server was correctly serving the updated content, confirming the deployment itself was successful and the discrepancy was purely client-side browser caching (a known characteristic of S3's default website endpoint, which doesn't set aggressive no-cache headers).
 
 ---
 
@@ -116,17 +122,23 @@ Add your screenshot here.
 
 ---
 
+## S3 Website Endpoint URL
+
+http://pravin-portfolio-ubani-eu-north-1.s3-website.eu-north-1.amazonaws.com
+
+---
+
 # Completion Checklist
 
-- [ ] Task 1: Template downloaded/cloned with `index.html` confirmed (Screenshot 1)
-- [ ] Task 2: Globally unique S3 bucket created (Screenshot 2)
-- [ ] Task 3: Website files uploaded with `index.html` at bucket root (Screenshot 3)
-- [ ] Task 4: Static website hosting enabled (Screenshot 4)
-- [ ] Task 5: Public-read bucket policy saved (Screenshot 5)
-- [ ] Task 6: Live website verified through the S3 website endpoint (Screenshot 6)
-- [ ] Task 7: Optional small update re-uploaded and verified (Screenshot 7)
-- [ ] S3 Website Endpoint URL included
-- [ ] No sensitive account information exposed
+- [x] Task 1: Template downloaded/cloned with `index.html` confirmed (Screenshot 1)
+- [x] Task 2: Globally unique S3 bucket created (Screenshot 2)
+- [x] Task 3: Website files uploaded with `index.html` at bucket root (Screenshot 3)
+- [x] Task 4: Static website hosting enabled (Screenshot 4)
+- [x] Task 5: Public-read bucket policy saved (Screenshot 5)
+- [x] Task 6: Live website verified through the S3 website endpoint (Screenshot 6)
+- [x] Task 7: Optional small update re-uploaded and verified (Screenshot 7)
+- [x] S3 Website Endpoint URL included
+- [x] No sensitive account information exposed
 
 ---
 
@@ -140,12 +152,12 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
-- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/
 - 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
 
 ---
